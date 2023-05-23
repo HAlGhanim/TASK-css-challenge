@@ -1,26 +1,30 @@
 body {
   padding: 0;
   margin: 0;
-  background-image: url("pokemon-bg.jpg");
+  background-image: url("/assests/pokemon-bg.jpg");
+  background-repeat: no-repeat;
 }
 .Container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
   background-color: white;
-  margin: 250px 800px 0 800px;
+  width: 300px;
+  height: 300px;
   border-radius: 45px;
   text-align: center;
-  -webkit-box-shadow: 5px 5px 15px 5px #000000;
-  box-shadow: 5px 5px 15px 5px #000000;
+  padding: 12px;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 p {
   padding: 0 10px 20px 10px;
 }
 img {
-  width: 40%;
-  height: 40%;
+  width: 20%;
+  height: 20%;
   margin: 30px 0px 0px 0px;
   border-radius: 360px;
 }
