@@ -1,11 +1,26 @@
 /* Add your code in each class */
+@import url("https://fonts.googleapis.com/css?family=Arima&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+}
 .container {
+  height: 300px;
+  width: 400px;
+  overflow: auto;
 }
 .head {
+  background-color: turquoise;
+  color: red;
+  font-family: "Arima", sans-serif;
+  position: sticky;
+  top: 0;
 }
 
 .row {
-  /* .row is used in ./index.js not in the html filee */
+  background-color: gray;
+  color: black;
+  overflow: auto;
 }
 
 /* This is a gift - Does not need editing */
